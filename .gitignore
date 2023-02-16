@@ -1,5 +1,7 @@
 *
 !.gitignore
 !zsh/
+!nvim/
+nvim/plugin/
 !LICENSE
 !README.md
