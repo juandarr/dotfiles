@@ -35,14 +35,14 @@ source ~/.config/zsh/ssh-agent.zsh
 
 # Plugins
 
-## Zsh-syntax-highlighting
-source ~/.local/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
 ## Zsh-autosuggestions
-source ~/.local/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 ## Zsh-completions
-source ~/.local/share/zsh/plugins/zsh-completions/zsh-completions.plugin.zsh
+source ~/.config/zsh/plugins/zsh-completions/zsh-completions.plugin.zsh
+
+## Zsh-syntax-highlighting
+source ~/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

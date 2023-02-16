@@ -7,8 +7,10 @@
 !.zshrc
 
 #Include folder
-!.config
-.config/*
-!.config/zsh/
-!.config/nvim/
-.config/nvim/plugin/*
+!/.config/
+/.config/*
+!/.config/zsh/
+/.config/zsh/plugins/*
+!/.config/zsh/plugins/get_plugins.sh
+!/.config/nvim/
+/.config/nvim/plugin/*
