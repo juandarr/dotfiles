@@ -1,7 +1,11 @@
-*
+/* 
+#Include files
 !.gitignore
+!LICENSE 
+!README.md 
+
+#Include folder
 !zsh/
 !nvim/
-nvim/plugin/
-!LICENSE
-!README.md
+nvim/plugin/*
+
