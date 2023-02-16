@@ -1,11 +1,13 @@
 /* 
+
 #Include files
 !.gitignore
 !LICENSE 
 !README.md 
 
 #Include folder
-!zsh/
-!nvim/
-nvim/plugin/*
-
+!.config
+.config/*
+!.config/zsh/
+!.config/nvim/
+.config/nvim/plugin/*
