@@ -4,6 +4,7 @@
 !.gitignore
 !LICENSE 
 !README.md 
+!.zshrc
 
 #Include folder
 !.config
