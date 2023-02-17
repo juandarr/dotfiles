@@ -12,5 +12,10 @@
 !/.config/zsh/
 /.config/zsh/plugins/*
 !/.config/zsh/plugins/get_plugins.sh
+
 !/.config/nvim/
 /.config/nvim/plugin/*
+
+!/.config/alacritty
+/.config/alacritty/*
+!/.config/alacritty/alacritty.yml
