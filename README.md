@@ -12,7 +12,13 @@ language.
 My currrent configuration uses Neovim 8.3, Packer as the plugin manager and 
 Mason to manage LSP server/utility installation, such as linters, formatters 
 and debuggers.
-For more information go to [NVim readme page](.config/nvim/README.md).
+For more information go to [Nvim readme page](.config/nvim/README.md).
+
+## Alacritty
+[Alacritty](https://alacritty.org) is my current terminal emulator. It is written in Rust and UX is quite flawless. 
+It requires minimal configuration since first installation. My dotfiles for Alacritty are
+stored in `.config/alacritty/alacritty.yml`. Every possible configuration is commented in 
+the [yaml](https://yaml.org) file, so that is good starting point whenever you need to specify some custom setting. 
 
 ## Usage
 This repo is designed to be imported in the user folder as root (e.g., `/home/user`).
