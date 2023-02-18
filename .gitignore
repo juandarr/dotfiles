@@ -5,6 +5,7 @@
 !LICENSE 
 !README.md 
 !.zshrc
+!.tmux.conf
 
 #Include folder
 !/.config/
