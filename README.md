@@ -14,14 +14,14 @@ Mason to manage LSP server/utility installation, such as linters, formatters
 and debuggers.
 For more information go to [Nvim readme page](.config/nvim/README.md).
 
-## Alacritty
+### Alacritty
 [Alacritty](https://alacritty.org) is my current terminal emulator. It is written in Rust and UX is quite flawless. 
 It requires minimal configuration since first installation. My dotfiles for Alacritty are
 stored in `.config/alacritty/alacritty.yml`. Every possible configuration is commented in 
 the [yaml](https://yaml.org) file, so that is good starting point whenever you need to specify some custom setting. 
 
 ## Usage
-This repo is designed to be imported in the user folder as root (e.g., `/home/user`).
+This repo is designed to be imported with the user folder as the root folder (e.g., `/home/user`).
 Folders inside `.config` for `zsh` and `nvim` are expected to be empty or without
 any file name conflicting with the ones defined in this repo. The usual procedure
 to put the dotfiles to use is as follows:
@@ -43,3 +43,10 @@ Don't forget to clone the `Zsh` plugins using the `bash` script in `.config/zsh/
 If needed, give execution permissions to such file with `sudo chmod +x get_plugins.sh`.
 The names of the main plugin files (extension `.zsh`) should match the ones defined
 inside `.zshrc`.
+
+### Alacritty
+After cloning the repo to the user folder and installing 
+Alacritty you will be able to use the terminal with most of the defined custom
+settings. To get the custom theme (`catpuccin` is my current choice), run the `bash`
+file in `.config/alacritty/get_addons.sh`. If needed, give execution to such file
+with `sudo chmod +x file_path`.
