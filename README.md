@@ -20,6 +20,12 @@ It requires minimal configuration since first installation. My dotfiles for Alac
 stored in `.config/alacritty/alacritty.yml`. Every possible configuration is commented in 
 the [yaml](https://yaml.org) file, so that is good starting point whenever you need to specify some custom setting. 
 
+### Tmux
+[Tmux](https://github.com/tmux/tmux) is a terminal multiplexer which is highly customizable and full of features.
+In my particular use case Tmux is used as a window manager,  allowing the creation of
+sessions, windows (tabs) and panes (instances of terminals inside windows). The keymap
+is defined in its customization file `.tmux.conf`, which is located in the user directory.
+
 ## Usage
 This repo is designed to be imported with the user folder as the root folder (e.g., `/home/user`).
 Folders inside `.config` for `zsh` and `nvim` are expected to be empty or without
@@ -50,3 +56,9 @@ Alacritty you will be able to use the terminal with most of the defined custom
 settings. To get the custom theme (`catpuccin` is my current choice), run the `bash`
 file in `.config/alacritty/get_addons.sh`. If needed, give execution to such file
 with `sudo chmod +x file_path`.
+
+### Tmux
+Install Tmux for your particular distro. As of 02/19/2023 I am using Fedora, so installing Tmux
+is as easy as `sudo dnf install tmux`. Once Tmux has been installed, the configuration file
+imported from this repo (located at the user root) will define keymaps, status lines, themes and 
+more. 
