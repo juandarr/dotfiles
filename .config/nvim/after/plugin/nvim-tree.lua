@@ -62,7 +62,10 @@ local config = {
                 { key = "<C-]>", action = ""},
                 { key = "o", action = "cd"},
                 { key = "-", action = ""},
-                {key = "u", action = "dir_up"}
+                {key = "u", action = "dir_up"},
+                {key = "q", action = ""},
+                {key = "<Esc>", action = "close"},
+
             }
         },
         float = {

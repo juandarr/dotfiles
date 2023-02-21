@@ -2,6 +2,7 @@ require("overcode.remap")
 require("overcode.set")
 require("overcode.packer")
 
+--- Enables nvim tree functionality from start
 local function open_nvim_tree(data)
 
   -- buffer is a directory
