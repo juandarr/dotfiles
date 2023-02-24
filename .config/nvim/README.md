@@ -79,3 +79,6 @@ to help you solve all the trouble your code is causing.
 [nightfox.nvim](https://github.com/EdenEast/nightfox.nvim) is a highly 
 customizable theme for vim and Neovim with support for lsp, treesitter and a 
 variety of plugins.
+
+### More
+More Neovim color schemes can be explored in [vimcolorschemes.com](https://vimcolorschemes.com/).
