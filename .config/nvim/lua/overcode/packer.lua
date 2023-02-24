@@ -29,8 +29,7 @@ return require('packer').startup(function(use)
 	  requires = {
 		  -- LSP Support
 		  {'neovim/nvim-lspconfig'},             -- Required
-		  {'williamboman/mason.nvim'},           -- Optional
-		  {'williamboman/mason-lspconfig.nvim'}, -- Optional
+		  {'williamboman/mason.nvim'},           -- Optional		  {'williamboman/mason-lspconfig.nvim'}, -- Optional
 
 		  -- Autocompletion
 		  {'hrsh7th/nvim-cmp'},         -- Required
@@ -76,6 +75,18 @@ return require('packer').startup(function(use)
             vim.o.timeout = true
             vim.o.timeoutlen = 300
             require("which-key").setup {
+                -- your configuration comes here
+                -- or leave it empty to use the default settings
+                -- refer to the configuration section below
+            }
+        end
+    }
+
+    use {
+        "folke/trouble.nvim",
+        requires = "nvim-tree/nvim-web-devicons",
+        config = function()
+            require("trouble").setup {
                 -- your configuration comes here
                 -- or leave it empty to use the default settings
                 -- refer to the configuration section below
