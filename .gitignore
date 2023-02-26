@@ -21,3 +21,7 @@
 /.config/alacritty/*
 !/.config/alacritty/alacritty.yml
 !/.config/alacritty/get_addons.sh
+
+!/.config/tmux
+/.config/tmux/*
+!/.config/tmux/tmux.custom

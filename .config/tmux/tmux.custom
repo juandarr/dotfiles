@@ -1,0 +1,20 @@
+#!/bin/bash
+ses='main'
+if [[ -z $(tmux ls) ]]
+then
+	tmux new-session -A -d -s ${ses}
+	tmux rename-window 'Main'
+	tmux new-window 
+	tmux rename-window 'Nvim'
+	tmux split-window -d 
+    tmux resize-pane -D 15
+	tmux previous-window
+	tmux attach-session -t ${ses}
+else
+    if [[ -z $(tmux ls | grep ${ses} | grep attached) ]]
+    then
+        tmux attach-session -t ${ses}	
+    else
+        exit
+    fi
+fi

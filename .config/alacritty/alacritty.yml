@@ -444,16 +444,24 @@ cursor:
 #   - (Linux/BSD/macOS) `$SHELL` or the user's login shell, if `$SHELL` is unset
 #   - (Windows) powershell
 shell:
-#program: /usr/bin/zsh
-#  args:
-#    - --login
-  program: /usr/bin/tmux
+  program: /usr/bin/zsh
   args:
-    - new-session
-    - -A
-    - -D
-    - -s
-    - main
+     - --login
+# Here are a couple of alternative configurations:
+# 1) When using a bash script to customize alacritty init (in background)
+# program: /home/overcode/.config/tmux/tmux.custom
+# args:
+#   - --&
+#   - --login
+# 2) When using tmux directly to create a session, automatic attachment, 
+# start dettached, and with session name main
+# program: /usr/bin/tmux
+# args:
+#   - new-session
+#   - -A
+#   - -D
+#   - -s
+#   - main
 # Here's what each argument does:
 #
 #     new-session: This creates a new tmux session.
