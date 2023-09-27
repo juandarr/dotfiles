@@ -4,5 +4,13 @@ alias vim='nvim'
 alias top='bpytop'
 
 # Access to parent folder
-alias ..='cd ../'
-alias ...='cd ../../'
+function .. {
+	cd ../
+}
+
+function ... {
+	cd ../../
+}
+function .... {
+	cd ../../../
+}
